@@ -3,7 +3,7 @@
 Librería que genera un formulario con campos dinámicos, 
 Prueba práctica para [walmeric](http://www.walmeric.com/).
 
-##Descripción
+## Descripción
 
 Aqui va la descripción
 
@@ -13,7 +13,7 @@ Aqui va la descripción
 npm install formlibrary
 ```
 
-##Uso
+## Uso
 
 ```
 import formlibrary from formlibrary
@@ -21,6 +21,6 @@ import formlibrary from formlibrary
 formlibrary(params) //results
 ```
 
-#License 
+# License 
 [MIT](https://opensource.org/licenses/MIT)
 
