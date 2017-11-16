@@ -9,7 +9,7 @@ Librería que genera un formulario con campos dinámicos
 
 ## Uso
     
-    * Incluir la libreria en el HTML como un script externo de javascript.
+    Incluir la libreria en el HTML como un script externo de javascript.
 
     ```
         <body>
