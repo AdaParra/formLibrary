@@ -12,11 +12,10 @@ Librería que genera un formulario con campos dinámicos
     Incluir la libreria en el HTML como un script externo de javascript.
 
     ```
-        <body>
-            ...
-            <script src="./formLibrary.js"></script>
-        </body>
-
+    <body>
+        ...
+        <script src="./formLibrary.js"></script>
+    </body>
     ```
 
     ### Creación de un formulario
@@ -32,7 +31,10 @@ Librería que genera un formulario con campos dinámicos
             { type: "number", name: "telefono", id: "idTelefono", required: false},
             { type: "text", name: "direccion", id: "idDireccion", required: false}])
         ```
-    2. El resultado (result) es un objeto con acceso al elemento ``` <form> ``` 
+    2. El resultado (result) es un objeto con acceso al elemento 
+    ``` 
+    <form> 
+    ``` 
 
     ### Creación de varios formularios
 
@@ -48,8 +50,10 @@ Librería que genera un formulario con campos dinámicos
             { type: "number", name: "telefono", id: "idTelefono", required: false},
             { type: "text", name: "direccion", id: "idDireccion", required: false}], 5)
         ```
-    2. El resultado (result) es un arreglo de objetos con acceso a los elementos ```<form>```
-
+    2. El resultado (result) es un arreglo de objetos con acceso a los elementos 
+    ```
+    <form>
+    ```
 
 # License 
 [MIT](https://opensource.org/licenses/MIT)
