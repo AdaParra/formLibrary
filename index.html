@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Formulario Dinamico</title>
+</head>
+    <body>
+
+        <h1> Prueba Práctica </h1>
+
+        <script src="./formLibrary.js"></script>
+        <script type="text/javascript">
+
+            let resultCreateForm = window.FormBuilder.createForm([
+                { type: "text", name: "nombre", id: "idText", required: false},
+                { type: "email", name: "nombre", id: "idNombre", required: false},
+                { type: "email", name: "correo", id: "idCorreo", required: true},
+                { type: "number", name: "telefono", id: "idTelefono", required: false},
+                { type: "text", name: "direccion", id: "idDireccion", required: false}
+            ])
+
+            console.log("Un Formulario: ", resultCreateForm)
+
+            let resultCreateForms = window.FormBuilder.createForms([
+                { type: "text", name: "nombre", id: "idText", required: false},
+                { type: "email", name: "nombre", id: "idNombre", required: false},
+                { type: "email", name: "correo", id: "idCorreo", required: true},
+                { type: "number", name: "telefono", id: "idTelefono", required: false},
+                { type: "text", name: "direccion", id: "idDireccion", required: false}], 5)
+
+            console.log("Varios Formularios: ", ...resultCreateForms)
+        </script>
+    </body>
+</html>
