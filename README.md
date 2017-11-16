@@ -11,7 +11,7 @@ Librería que genera un formulario con campos dinámicos
     
 Incluir la librería en el HTML como un script externo de javascript.
 
-```
+```html
 <body>
     ...
     <script src="./formLibrary.js"></script>
@@ -49,6 +49,6 @@ let result = window.FormBuilder.createForm([
 <form>
 ```
 
-# License 
+# Licencia
 [MIT](https://opensource.org/licenses/MIT)
 
