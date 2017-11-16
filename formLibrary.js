@@ -1,17 +1,10 @@
-/***
-*   class FormBuilder
-*       Metodos{ 
-*           createForm = Generea un formulario con los campos dinamicos.
-*           createForms = Funcionalidad extra: Genera un formulario con los campos dinamicos
-*                         y los ids dinamicos incrementales.
-*           createInputs = Genera los inputs con los campos dinamicos.
-*       }
-*
-***/
+/**
+*Asignando la clase FormBuilder a un namespace del objeto window
+**/
 window.FormBuilder = class FormBuilder{
 
     /*** 
-    *Inicio createForm
+    *createForm
     *   Recibe: 
     *       fields: Objeto con los siguientes parametros: 
     *       {    
@@ -78,10 +71,6 @@ window.FormBuilder = class FormBuilder{
         })
         return inputs
     }
-    /***
-    * Fin createInputs
-    * retorna los objetos inputs con los campos dinamicos  
-    ***/
 
 
     /***
@@ -121,6 +110,4 @@ window.FormBuilder = class FormBuilder{
     * y los ids dinamicos incrementales. 
     ***/
 }
-/***
-* end-FormBuilder
-***/
+
